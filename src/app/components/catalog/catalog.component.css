@@ -1,0 +1,40 @@
+h1{
+    margin-bottom: 3%;
+}
+
+.bookstore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    width: 90%;
+}
+
+.card{
+    margin-bottom: 15px;
+}
+
+.card-subtitle{
+    font-size: 15px;
+    color: gray;
+}
+
+.card-isbn{
+    font-size: small;
+    color:gray;
+    font-weight: 200;
+}
+
+.card-price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+

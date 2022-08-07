@@ -1,0 +1,21 @@
+<div class="bookstore">
+  <h1>Catalog</h1>
+  <div class="d-flex w-50 pb-4">
+    <input class="form-control w-100" type="search" placeholder="What are you looking for?" aria-label="Search">
+    <button class="btn btn-outline-primary" type="submit">Search</button>
+  </div>
+  <div class="catalogo">
+    <div class="card" *ngFor="let book of listBook" style="width: 18rem;">
+      <img [src]= "book.image" class="card-img-top" alt="...">
+      <div class="card-body" >
+        <h5 class="card-title">{{book.title}}</h5>
+        <p class="card-subtitle">{{book.subtitle}}</p>
+        <p class="card-isbn">ISBN: {{book.isbn13}}</p>
+        <p class="card-price">{{book.price}}</p>
+        <a href="#" class="btn btn-primary">Comprar</a>
+      <div>
+    </div>
+  </div>
+</div>
+
+
